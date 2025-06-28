@@ -2,148 +2,64 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muebles a Medida - Melamina</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MelanimArt - Muebles a Medida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background-color: #fff;
-      padding: 1rem 2rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-    }
-    .hero {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 3rem 2rem;
-      background-color: #e3e3e3;
-    }
-    .hero img {
-      max-width: 50%;
-      border-radius: 1rem;
-    }
-    .hero-text {
-      max-width: 45%;
-    }
-    .hero-text h1 {
-      font-size: 2.5rem;
-    }
-    .btn {
-      background-color: #333;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 0.5rem;
-      cursor: pointer;
-      margin-top: 1rem;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .section {
-      padding: 3rem 2rem;
-      background-color: #fff;
-    }
-    .section h2 {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .product {
-      background-color: #fafafa;
-      padding: 1rem;
-      border-radius: 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-    .product img {
-      width: 100%;
-      border-radius: 0.5rem;
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
+    body { font-family: 'Inter', sans-serif; margin: 0; background-color: #f5f5f5; color: #333; }
+    header { background-color: #fff; padding: 1rem 2rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin: 0 1rem; text-decoration: none; color: #333; font-weight: 600; }
+    .hero { display: flex; align-items: center; justify-content: space-between; padding: 3rem 2rem; background-color: #e3e3e3; flex-wrap: wrap; }
+    .hero img { max-width: 100%; border-radius: 1rem; margin-top: 1rem; }
+    .hero-text { max-width: 600px; }
+    .hero-text h1 { font-size: 2.5rem; }
+    .btn { background-color: #333; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; cursor: pointer; margin-top: 1rem; text-decoration: none; display: inline-block; }
+    .section { padding: 3rem 2rem; background-color: #fff; }
+    .section h2 { text-align: center; margin-bottom: 2rem; }
+    .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; }
+    .product { background-color: #fafafa; padding: 1rem; border-radius: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); text-align: center; }
+    .product img { width: 100%; border-radius: 0.5rem; }
+    footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Muebles Melamina</h1>
+    <h1>MelanimArt</h1>
     <nav>
       <a href="#inicio">Inicio</a>
       <a href="#catalogo">Catálogo</a>
-      <a href="#personalizado">Personalizados</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
   <section class="hero" id="inicio">
     <div class="hero-text">
-      <h1>Diseño moderno en melamina</h1>
-      <p>Muebles a medida, hechos con precisión y estilo. Soluciones prácticas para todos los ambientes de tu hogar.</p>
-      <a href="#catalogo" class="btn">Ver Catálogo</a>
+      <h1>Diseño a tu medida en melamina</h1>
+      <p>Muebles únicos con estilo y funcionalidad. Hechos con arte y precisión en Córdoba.</p>
+      <a href="https://wa.me/5493517432062" class="btn" target="_blank">Escribinos por WhatsApp</a>
     </div>
-    <img src="https://images.unsplash.com/photo-1600573472961-8e36ef58b891" alt="Mueble moderno de melamina">
+    <img src="escritorio-marmol.jpg" alt="Escritorio de melamina con estantería integrada" />
   </section>
 
   <section class="section" id="catalogo">
     <h2>Catálogo de Productos</h2>
     <div class="products">
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1604014237744-104e5092e75f" alt="Escritorio">
-        <h3>Escritorio Minimal</h3>
-        <p>$55.000 ARS</p>
+        <img src="escritorio-marmol.jpg" alt="Escritorio Mármol Negro">
+        <h3>Escritorio con estantería integrada</h3>
+        <p>$300.000 ARS</p>
       </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1598300051534-fb7f3a54f138" alt="Placard">
-        <h3>Placard 2 Puertas</h3>
-        <p>$120.000 ARS</p>
-      </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1588776814546-cfeaaef7c522" alt="Mueble TV">
-        <h3>Mueble para TV</h3>
-        <p>$70.000 ARS</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="personalizado">
-    <h2>¿Querés un mueble a medida?</h2>
-    <p style="text-align:center; max-width:600px; margin: 0 auto;">Completá nuestro formulario o escribinos por WhatsApp para contarnos qué necesitás: medidas, color y diseño.</p>
-    <div style="text-align:center; margin-top:2rem;">
-      <a class="btn" href="https://wa.me/5491123456789" target="_blank">¡Hablá con nosotros!</a>
     </div>
   </section>
 
   <section class="section" id="contacto">
     <h2>Contacto</h2>
-    <p style="text-align:center">📞 11-2345-6789 | ✉️ muebles@taller.com | 📍 Buenos Aires, Argentina</p>
+    <p style="text-align:center">📞 WhatsApp: 351-743-2062<br>✉️ melanimart@gmail.com (opcional)<br>📍 Córdoba, Argentina</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Muebles Melamina - Todos los derechos reservados</p>
+    <p>&copy; 2025 MelanimArt - Todos los derechos reservados</p>
   </footer>
 </body>
 </html>
